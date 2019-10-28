@@ -92,23 +92,35 @@
 		</dependency>
 		
 	</dependencies>
-	
-	<distributionManagement>
-	
-	    <repository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.233.138.204:9980/mithuntechnologies/repository/paytm-release/</url>
-	    </repository>
-	    
-	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.233.138.204:9980/mithuntechnologies/repository/paytm-snapshot/</url>
-	    </snapshotRepository>
-	    
-	</distributionManagement>
-	
+<!--	
+  <distributionManagement>
+
+    <repository>
+
+      <id>nexus</id>
+   <name>snapdeal-release</name>
+   <url>http://15.206.66.183:8081/repository/snapdeal-release/</url>
+  
+   </repository>
+ 
+  <snapshotRepository>
+
+      <id>nexus</id>
+    <name>snapdeal-snapshot</name>
+     <url>http://15.206.66.183:8081/repository/snapdeal-snapshot/</url>
+  
+ </snapshotRepository>
+ 
+
+ <snapshotRepository>
+
+      <id>nexus</id>
+   <name>snapdeal-snapshot</name>
+   <url>http://15.206.66.183:8081/repository/snapdeal-snapshot/</url>
+    </snapshotRepository>
+
+ </distributionManagement>
+-->	
 	<build>
 		<finalName>maven-web-application</finalName>
 		
@@ -150,5 +162,25 @@
 </plugins>
 	</build>
 	
+
+ <repositories>
+    <repository>
+      <id>central</id>
+      <name>release</name>
+      <url>http://52.66.59.93:8081/repository/snapdeal-release/</url>
+    </repository>
+  </repositories>
+
+<repositories>
+   <repository>
+     <id>central</id>
+ <name>snapshot</name>    
+ <url>http://http://52.66.59.93:8081/repository/snapdeal-snapshot//</url>
+   </repository>
+</repositories>
+
+
+
 	
+
 </project>
