@@ -162,7 +162,7 @@
 </plugins>
 	</build>
 	
-
+<!--
  <repositories>
     <repository>
       <id>central</id>
@@ -178,7 +178,7 @@
  <url>http://http://52.66.59.93:8081/repository/snapdeal-snapshot//</url>
    </repository>
 </repositories>
-
+-->
 
 
 	
